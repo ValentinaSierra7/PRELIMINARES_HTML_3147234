@@ -1,0 +1,25 @@
+/*punto 1*/
+aside h3, h2 {
+    font-size: 29px;
+    color: rgb(113, 181, 212);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*punto 2*/
+nav > a, footer > a{
+    color: rgb(236, 120, 207);
+    text-decoration: none;
+}
+/*punto 3*/
+footer a {
+    font-size: 20;
+    font-weight: bold;
+    color: rgb(187, 133, 223);
+}
+/*punto 4*/
+h2 + p {
+    color: rgb(250, 234, 7);
+}
+/*punto 5*/
+aside > p {
+    color: rgb(133, 90, 235);
+}
