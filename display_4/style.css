@@ -1,0 +1,47 @@
+.contenedor1{
+    /*
+    display: blocl dispone el elemento en bloque
+    -va utilizar por defecto todo el ancho disponible del dispositivo
+    -si tu defines un elemento como bloque poner propiedades como:
+    anch , alto , oadding , margin
+    -el sigueinte elemento se mostrara en la siguiente linea
+    -por defecto lo usan h , p , div , section, etc
+    */
+    display: block;
+    background-color: rgba(187, 153, 231, 0.32);
+    height: 150px;
+}
+.contenedor2{
+    background-color: rgb(218, 128, 229);
+    display: block;
+    width: 500px;
+    height: 150px;
+}
+.contenedor3 {
+    /*agregamos un stilo inline
+    -no se puede aplicar propiedades de ancho , alto , padding , margin y demas 
+    -el siguiente elemneto se muestra en la misma linea, con un espacio 
+    -algunos elemnetos lo usan: span, a , img*/
+    display: inline;
+    background-color: rgba(194, 160, 250, 0.848);
+}
+.contenedor4 {
+    display: inline-block;
+    background-color: rgba(240, 127, 234, 0.853);
+}
+.contenedor5{
+    /*
+    -los elementos siguientes se muestran en la misma linea (inline)
+    - se le puede aplicar propiedades de ancho , alto , padding, margin(block)
+    */
+    display: inline-block;
+    background-color: rgba(196, 138, 230, 0.661);
+    width: 100px;
+    height: 100px;
+}
+.contenedor6{
+    display: inline-block;
+    background-color: rgb(224, 191, 236);
+    width: 100px;
+    height: 100px;
+}
